@@ -1,0 +1,30 @@
+// Emotion Analysis API Pipeline
+digraph {
+	rankdir=LR
+	A2 [label="YouTube Link"]
+	B2 [label="Extract
+Video ID"]
+	C2 [label="Fetch Video
+Info & Comments"]
+	D2 [label="Load Trained
+Model"]
+	E2 [label="Predict
+Emotions"]
+	F2 [label="JSON
+Response"]
+	G2 [label="Text Input"]
+	H2 [label=Tokenization]
+	I2 [label="Emotion
+Prediction"]
+	J2 [label="JSON
+Response"]
+	A2 -> B2
+	B2 -> C2
+	C2 -> D2
+	D2 -> E2
+	E2 -> F2
+	G2 -> H2
+	H2 -> D2
+	D2 -> I2
+	I2 -> J2
+}

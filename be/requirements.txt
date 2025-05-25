@@ -1,0 +1,19 @@
+# torch --> Use gpu to train: pip install torch --extra-index-url https://download.pytorch.org/whl/cu118
+torch
+ipykernel
+transformers
+pandas
+numpy
+tqdm 
+openpyxl
+scikit-learn 
+datasets 
+seaborn
+matplotlib
+fastapi
+uvicorn
+python-multipart
+python-dotenv
+graphviz
+# Create Jupyter kernel for this venv
+# python -m ipykernel install --user --name=emotionanalyze --display-name="Python (EmotionAnalyze)"

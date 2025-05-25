@@ -1,0 +1,21 @@
+// Emotion Analysis Training Pipeline
+digraph {
+	rankdir=LR
+	A1 [label="Training Data
+(Excel)"]
+	B1 [label="Data
+Preprocessing"]
+	C1 [label="PhoBERT
+Tokenizer"]
+	D1 [label="Emotion
+Classifier"]
+	E1 [label="Model
+Training"]
+	F1 [label="Save Best
+Model"]
+	A1 -> B1
+	B1 -> C1
+	C1 -> D1
+	D1 -> E1
+	E1 -> F1
+}

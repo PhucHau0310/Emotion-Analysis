@@ -1,0 +1,18 @@
+services:
+    backend:
+        container_name: emotion-analysis-backend
+        build:
+            context: ./be
+            dockerfile: Dockerfile
+        ports:
+            - '8000:8000'
+
+    frontend:
+        container_name: emotion-analysis-frontend
+        build:
+            context: ./fe
+            dockerfile: Dockerfile
+        ports:
+            - '4002:3000'
+        depends_on:
+            - backend
