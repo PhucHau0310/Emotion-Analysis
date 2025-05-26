@@ -2,6 +2,16 @@
 
 This project implements a deep learning model for emotion analysis in Vietnamese text, with both training pipeline and API endpoints for real-world applications.
 
+## Screenshots
+
+### Result analyze
+
+![Result analyze](fe/public/result_analyze.png)
+
+### Comment Relevance
+
+![Comment Relevance](fe/public/comments_relevance.png)
+
 ## Pipeline Diagrams
 
 ### Training Pipeline
