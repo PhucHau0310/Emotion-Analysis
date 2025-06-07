@@ -1,28 +1,28 @@
-# Emotion Analysis for Vietnamese Text
+# 🚀 Emotion Analysis for Vietnamese Text
 
 This project implements a deep learning model for emotion analysis in Vietnamese text, with both training pipeline and API endpoints for real-world applications.
 
-## Screenshots
+## 📸 Screenshots
 
-### Result analyze
+### 📌 Result analyze
 
 ![Result analyze](fe/public/result_analyze.png)
 
-### Comment Relevance
+### 📌 Comment Relevance
 
 ![Comment Relevance](fe/public/comments_relevance.png)
 
-## Pipeline Diagrams
+## 🔌 Pipeline Diagrams
 
-### Training Pipeline
+### 📈 Training Pipeline
 
 ![Training Pipeline](be/reports/training_pipeline.gv.png)
 
-### API Pipeline
+### 📈 API Pipeline
 
 ![API Pipeline](be/reports/api_pipeline.gv.png)
 
-## Model Evaluation Results
+## 📈 Model Evaluation Results
 
 -   Accuracy: 62,2%
 -   F1-Score: 0.62
@@ -42,7 +42,7 @@ Detailed evaluation metrics for each emotion:
 | Surprise  | 0.65      | 0.59   | 0.62     | 37      |
 | Other     | 0.54      | 0.64   | 0.58     | 119     |
 
-## Installation
+## 📦 Installation
 
 ### Option 1: Use venv
 
@@ -77,7 +77,7 @@ cd root project
 docker-compose up --build
 ```
 
-## Usage
+## 🧪 Usage
 
 ### Training
 
@@ -113,7 +113,7 @@ POST /predict
 }
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 EmotionAnalyze/
@@ -132,7 +132,7 @@ EmotionAnalyze/
 └── README.md
 ```
 
-## Environment Variables
+## 🛠️ Environment Variables
 
 Create a `.env` file in the root directory be:
 
@@ -140,16 +140,16 @@ Create a `.env` file in the root directory be:
 YOUTUBE_API_KEY=your_api_key_here
 ```
 
-## Contributing
+## 🙋 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Authors
+## 👤 Authors
 
 -   **Nguyễn Phúc Hậu** - _Initial work_
 -   **Email:** haunhpr024@gmail.com
 
-## Acknowledgments
+## ❓ Acknowledgments
 
 -   PhoBERT for providing pre-trained Vietnamese language model
 -   FastAPI for the web framework
