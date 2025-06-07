@@ -148,6 +148,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 -   **Nguyễn Phúc Hậu** - _Initial work_
 -   **Email:** haunhpr024@gmail.com
+-   **Github:** PhucHau0310
 
 ## ❓ Acknowledgments
 
